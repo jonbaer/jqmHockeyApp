@@ -19,7 +19,7 @@ var HockeyApp = (function() {
         PhoneGap.exec("HockeyApp.checkForUpdate");
     },
     
-    isUpdateAvailable = function(cb) { // provide a function that can be called back with result: ''/1
+    isUpdateAvailable = function(cb) { // provide a function that can be called back with result: ''/'1'
         PhoneGap.exec("HockeyApp.isUpdateAvailable", GetFunctionName(cb)); 
     },
     

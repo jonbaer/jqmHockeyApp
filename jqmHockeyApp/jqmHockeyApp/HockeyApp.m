@@ -15,7 +15,7 @@
 
 - (void) init:(NSArray*)arguments withDict:(NSDictionary*)options
 {    
-    // collect appIdentifier from JavaScript or just hardcode it here. 
+    // collect appIdentifier from JavaScript or just hardcode it here.
     NSString* appIdentifier = [options valueForKey:@"appIdentifier"];
     [[BWHockeyManager sharedHockeyManager] setAppIdentifier:appIdentifier];
     [[BWQuincyManager sharedQuincyManager] setAppIdentifier:appIdentifier];
@@ -26,6 +26,7 @@
 - (void) checkForUpdate:(NSArray*)arguments withDict:(NSDictionary*)options
 {
     [[BWHockeyManager sharedHockeyManager] checkForUpdate];
+    NSLog(@"check");
 }
 
 - (void) isUpdateAvailable:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options

@@ -52,21 +52,18 @@
 	{
 		// do your thing!
 		//navigator.notification.alert("PhoneGap is working")
-        var args = {};
-        args.appIdentifier = '20c7495e8ae7f2c0c2397fd15ea56e4e'; //put in your App ID or modify HockeyApp.js or HockeyApp.m
+        var args = {};        
+        args.appIdentifier = '16b2f97e9915a4e977595795852d5039'; //put in your App ID or modify HockeyApp.js or HockeyApp.m
+        
         HockeyApp.init(args);
-        HockeyApp.isUpdateAvailable(cbIsUpdateAvailable);
 	}
         
         function cbIsUpdateAvailable(update){
-            var isUpdateB ='<a href="" data-role="button" data-inline="true" onClick="HockeyApp.inititeAppDownLoad(cbInitiateAppDownLoad);return false">Check</a>'
-                downloadB ='<a href="" data-role="button" data-inline="true" onClick="HockeyApp.isUpdateAvailable(cbIsUpdateAvailable)";return false">Update</a>',
-                updateStatus = "no update available " + isUpdateB;
-            
             if (update){
-                updatestatus = "update available" + downloadB;
+                alert("update available");
+            }else{
+                alert("no update available");
             }
-            $('#updateStatus').html(updateStatus);    
         }
         
         function cbInitiateAppDownload(wentWell){
@@ -87,8 +84,20 @@
           </div><!-- /header -->
           
           <div data-role="content">	
-              <p id="updateStatus">Page content goes here.</p>
-              <p><a href="" data-role="button" data-inline="true" onClick="HockeyApp.crashTest(); return false;">Crash me!</a></p>
+              <ul data-role="listview">
+                  <li>
+                      <a href="" onClick="HockeyApp.crashTest(); return false;">crashTest</a>
+                  </li>
+                  <li>
+                      <a href="" onClick="HockeyApp.checkForUpdate();return false">checkForUpdate</a>'
+                  </li>
+                  <li>
+                      <a href="" onClick="HockeyApp.isUpdateAvailable(cbIsUpdateAvailable);return false">isUpdateAvailable</a>'
+                  </li>
+                  <li>
+                      <a href="" onClick="HockeyApp.initiateAppDownload(cbInitiateAppDownload);return false">initiateAppDownload</a>'
+                  </li>
+              </ul>    
           </div><!-- /content -->
           
           <div data-role="footer">
