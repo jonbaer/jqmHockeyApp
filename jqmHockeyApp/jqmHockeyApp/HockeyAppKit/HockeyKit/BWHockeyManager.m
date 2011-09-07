@@ -345,8 +345,9 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
         self.sendUserData = YES;
         self.sendUsageTime = YES;
         self.allowUserToDisableSendData = YES;
-        self.alwaysShowUpdateReminder = YES;
-        self.checkForUpdateOnLaunch = YES;
+        self.alwaysShowUpdateReminder = NO;
+        self.checkForUpdateOnLaunch = NO;
+        self.updateSetting = HockeyUpdateCheckManually;
         self.showUserSettings = YES;
         self.compareVersionType = HockeyComparisonResultDifferent;
         
