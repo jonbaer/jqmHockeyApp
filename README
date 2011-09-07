@@ -7,3 +7,5 @@ The aim is to be able to have a javascript event that can indicate updates avail
 Or just collect the update.
 
 HockeyKit has an excelent install screen, which is not being used here to allow total control of user interaction with HTML/JS and the alerts from HockeyKit that are available.
+
+http://www.geekdaily.net/2008/04/02/javascript-defining-and-using-custom-events/
