@@ -3,9 +3,8 @@ Demo of Jquery Mobile and HockeyApp.net using PhoneGap
 Please note:
 The HockeyKit contained is non-standard.
 
-The aim is to be able to have a javascript event that can indicate updates available, and functions to indicate this via alert or color a div
-Or just collect the update.
+The aim is to be able to have a an init that passes a "when do I want to check again" and a cb routine that indicates Updates ready.
+Any alerts should from HockeyKit should be optionally suppressed.
+HockeyKit alerts should be available to javascript (like showCheckForUpdateAlert).
+Needs a new option in HockeyKit, something like suppressAlerts (I know where to put them: TODO)
 
-HockeyKit has an excelent install screen, which is not being used here to allow total control of user interaction with HTML/JS and the alerts from HockeyKit that are available.
-
-http://www.geekdaily.net/2008/04/02/javascript-defining-and-using-custom-events/
