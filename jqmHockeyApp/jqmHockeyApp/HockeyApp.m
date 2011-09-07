@@ -19,6 +19,7 @@
     NSString* appIdentifier = [options valueForKey:@"appIdentifier"];
     [[BWHockeyManager sharedHockeyManager] setAppIdentifier:appIdentifier];
     [[BWQuincyManager sharedQuincyManager] setAppIdentifier:appIdentifier];
+    NSLog(@"init");
     
 }
 
@@ -26,7 +27,11 @@
 - (void) checkForUpdate:(NSArray*)arguments withDict:(NSDictionary*)options
 {
     [[BWHockeyManager sharedHockeyManager] checkForUpdate];
-    NSLog(@"check");
+}
+
+- (void) showCheckForUpdateAlert:(NSArray*)arguments withDict:(NSDictionary*)options
+{
+    [[BWHockeyManager sharedHockeyManager] showCheckForUpdateAlert];
 }
 
 - (void) isUpdateAvailable:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options

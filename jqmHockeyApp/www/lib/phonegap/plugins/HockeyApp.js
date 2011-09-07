@@ -19,8 +19,12 @@ var HockeyApp = (function() {
         PhoneGap.exec("HockeyApp.checkForUpdate");
     },
     
-    isUpdateAvailable = function(cb) { // provide a function that can be called back with result: ''/'1'
+    isUpdateAvailable = function(cb) { // provide a function that can be called back with result: ''/1
         PhoneGap.exec("HockeyApp.isUpdateAvailable", GetFunctionName(cb)); 
+    },
+    
+    showCheckForUpdateAlert = function(){
+        PhoneGap.exec("HockeyApp.showCheckForUpdateAlert");
     },
     
     initiateAppDownload = function(){   // has a return boolean which could be used
@@ -39,6 +43,7 @@ var HockeyApp = (function() {
         checkForUpdate :        checkForUpdate,         // causes a requester if new software is found
         crashTest :             crashTest,              // cause crash to test QuincyKit
         isUpdateAvailable :     isUpdateAvailable,      // checks if new software is available
+        showCheckForUpdateAlert: showCheckForUpdateAlert,
         initiateAppDownload :   initiateAppDownload,    // causes an requester for download of new software
         init :                  init                    // called before use
     };

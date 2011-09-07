@@ -15,6 +15,7 @@
 
 - (void) init:(NSArray*)arguments withDict:(NSDictionary*)options;
 - (void) checkForUpdate:(NSArray*)arguments withDict:(NSDictionary*)options;
+- (void) showCheckForUpdateAlert:(NSArray*)arguments withDict:(NSDictionary*)options;
 - (void) isUpdateAvailable:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
 - (void) initiateAppDownload:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
 - (void) crashTest:(NSArray*)arguments withDict:(NSDictionary*)options;

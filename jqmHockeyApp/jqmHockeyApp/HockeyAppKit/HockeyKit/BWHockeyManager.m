@@ -478,7 +478,6 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
 	}
 }
 
-
 - (void)showCheckForUpdateAlert_ {
     if (!updateAlertShowing_) {
         UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:BWHockeyLocalize(@"HockeyUpdateAvailable")
@@ -498,6 +497,10 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
     }
 }
 
+- (void)showCheckForUpdateAlert {
+    NSLog(@"here");
+    [self showCheckForUpdateAlert_];
+}   
 
 // nag the user with neverending alerts if we cannot find out the window for presenting the covering sheet
 - (void)alertFallback:(NSString *)message {
