@@ -345,7 +345,7 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
         self.sendUserData = YES;
         self.sendUsageTime = YES;
         self.allowUserToDisableSendData = YES;
-        self.alwaysShowUpdateReminder = YES;
+        self.alwaysShowUpdateReminder = NO;
         self.checkForUpdateOnLaunch = NO;
         self.showUserSettings = YES;
         self.compareVersionType = HockeyComparisonResultDifferent;
@@ -498,7 +498,6 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
 }
 
 - (void)showCheckForUpdateAlert {
-    NSLog(@"here");
     [self showCheckForUpdateAlert_];
 }   
 
@@ -943,8 +942,12 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
             [alert release];
         }
         
-        if (self.isUpdateAvailable && (self.alwaysShowUpdateReminder || newVersionDiffersFromCachedVersion)) {
-            if (updateAvailable_ && !currentHockeyViewController_) {
+        
+        // suppression of the alert could be here: to "play" remove the or BUT this is only a temporay thing: need correct solution
+//        if (self.isUpdateAvailable && (self.alwaysShowUpdateReminder || newVersionDiffersFromCachedVersion)) {
+        
+        if (self.isUpdateAvailable && (self.alwaysShowUpdateReminder)) {
+            if (updateAvailable_ && !currentHockeyViewController_ ) {
                 [self showCheckForUpdateAlert_];
             }
         }
