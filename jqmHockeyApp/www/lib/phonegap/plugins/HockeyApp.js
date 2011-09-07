@@ -3,15 +3,6 @@
 //  Created by Owen Brotherwood on 8/24/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
- 
-/*
- Experimental:
- change BWHockeyManager.m defaults and use isUpdateAvailable and initiateAppDownload for another type of user experience
- 
- self.alwaysShowUpdateReminder = NO;
- self.checkForUpdateOnLaunch = NO;
- self.updateSetting = HockeyUpdateCheckManually;
-*/
 
 
 var HockeyApp = (function() {  
@@ -49,3 +40,9 @@ var HockeyApp = (function() {
     };
 
 })();
+
+
+/*
+ I want init to have a cb that is fired when there isUpdateAvailable, another parameter would be how often to check.
+ The check would mean a checkForUpdate (with any HockeyKit Alerts suppressed as an option): then the choice would be to color a div or any other method to indicate that an update is available. Then initiateAppDownload at "some time", dependant on the App Designer and User
+*/
