@@ -346,7 +346,7 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
         self.sendUsageTime = YES;
         self.allowUserToDisableSendData = YES;
         self.alwaysShowUpdateReminder = YES;
-        self.checkForUpdateOnLaunch = YES;
+        self.checkForUpdateOnLaunch = NO;
         self.showUserSettings = YES;
         self.compareVersionType = HockeyComparisonResultDifferent;
 
@@ -815,7 +815,7 @@ static NSString *kHockeyErrorDomain = @"HockeyErrorDomain";
             [self performSelector:@selector(checkForAuthorization) withObject:nil afterDelay:0.0f];
         }
     } else {
-        if ([self shouldCheckForUpdates]) {
+        if ([self isCheckForUpdateOnLaunch]) {
             [self performSelector:@selector(checkForUpdate) withObject:nil afterDelay:0.0f];
         }
     }
