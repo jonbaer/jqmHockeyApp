@@ -1,2 +1,27 @@
 Demo of Jquery Mobile and HockeyApp.net using PhoneGap
 
+Experimental:
+
+For better control of when an upgrade requester comes and indication in html
+Todo: a checkForUpdate with no requester at all.
+The isUpdateAvailable is just a variable that is set by other functions if one has called the function first (otherwise the value is "not known" but is false ie not checked).
+
+One can edit BWHockeyManager.m with:
+
+        self.alwaysShowUpdateReminder = NO;
+        self.checkForUpdateOnLaunch = NO;
+        self.updateSetting = HockeyUpdateCheckManually;
+
+And:
+
+    // do we need to update?
+    /*
+    if (![self shouldCheckForUpdates] && !currentHockeyViewController_) {
+        BWHockeyLog(@"update not needed right now");
+        self.checkInProgress = NO;
+        return;
+    }
+    */
+
+
+
