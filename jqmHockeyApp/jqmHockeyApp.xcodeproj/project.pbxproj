@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0D2F4A14173FEC0089DA9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F4914173FEC0089DA9F /* Foundation.framework */; };
+		2E0D2F4C14173FEC0089DA9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F4B14173FEC0089DA9F /* UIKit.framework */; };
+		2E0D2F4E14173FEC0089DA9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F4D14173FEC0089DA9F /* CoreGraphics.framework */; };
+		2E0D2F5014173FEC0089DA9F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F4F14173FEC0089DA9F /* AddressBook.framework */; };
+		2E0D2F5214173FEC0089DA9F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5114173FEC0089DA9F /* AddressBookUI.framework */; };
+		2E0D2F5414173FEC0089DA9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5314173FEC0089DA9F /* AudioToolbox.framework */; };
+		2E0D2F5614173FEC0089DA9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5514173FEC0089DA9F /* AVFoundation.framework */; };
+		2E0D2F5814173FEC0089DA9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5714173FEC0089DA9F /* CoreLocation.framework */; };
+		2E0D2F5A14173FEC0089DA9F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5914173FEC0089DA9F /* MediaPlayer.framework */; };
+		2E0D2F5C14173FEC0089DA9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5B14173FEC0089DA9F /* QuartzCore.framework */; };
+		2E0D2F5E14173FEC0089DA9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5D14173FEC0089DA9F /* SystemConfiguration.framework */; };
+		2E0D2F6014173FEC0089DA9F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F5F14173FEC0089DA9F /* MobileCoreServices.framework */; };
+		2E0D2F6214173FEC0089DA9F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F6114173FEC0089DA9F /* CoreMedia.framework */; };
+		2E0D2F6814173FEC0089DA9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F6614173FEC0089DA9F /* InfoPlist.strings */; };
+		2E0D2F6A14173FEC0089DA9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F6914173FEC0089DA9F /* main.m */; };
+		2E0D2F6D14173FED0089DA9F /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2F6C14173FED0089DA9F /* PhoneGap.framework */; };
+		2E0D2F7214173FED0089DA9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7014173FED0089DA9F /* Localizable.strings */; };
+		2E0D2F7614173FED0089DA9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7414173FED0089DA9F /* Localizable.strings */; };
+		2E0D2F7914173FED0089DA9F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7814173FED0089DA9F /* icon.png */; };
+		2E0D2F7B14173FED0089DA9F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7A14173FED0089DA9F /* icon@2x.png */; };
+		2E0D2F7D14173FED0089DA9F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7C14173FED0089DA9F /* icon-72.png */; };
+		2E0D2F8014173FED0089DA9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F7F14173FED0089DA9F /* Default.png */; };
+		2E0D2F8214173FED0089DA9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F8114173FED0089DA9F /* Default@2x.png */; };
+		2E0D2F8414173FED0089DA9F /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F8314173FED0089DA9F /* Capture.bundle */; };
+		2E0D2F8614173FEE0089DA9F /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F8514173FED0089DA9F /* PhoneGap.plist */; };
+		2E0D2F8A14173FEE0089DA9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F8914173FEE0089DA9F /* AppDelegate.m */; };
+		2E0D2F93141740490089DA9F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2F92141740490089DA9F /* www */; };
+		2E0D2FB7141740E60089DA9F /* BWApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F97141740E60089DA9F /* BWApp.m */; };
+		2E0D2FB8141740E60089DA9F /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F99141740E60089DA9F /* BWGlobal.m */; };
+		2E0D2FB9141740E60089DA9F /* BWHockeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F9B141740E60089DA9F /* BWHockeyManager.m */; };
+		2E0D2FBA141740E60089DA9F /* BWHockeySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F9D141740E60089DA9F /* BWHockeySettingsViewController.m */; };
+		2E0D2FBB141740E60089DA9F /* BWHockeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2F9F141740E60089DA9F /* BWHockeyViewController.m */; };
+		2E0D2FBC141740E60089DA9F /* NSString+HockeyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FA2141740E60089DA9F /* NSString+HockeyAdditions.m */; };
+		2E0D2FBD141740E60089DA9F /* PSAppStoreHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FA4141740E60089DA9F /* PSAppStoreHeader.m */; };
+		2E0D2FBE141740E60089DA9F /* PSStoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FA6141740E60089DA9F /* PSStoreButton.m */; };
+		2E0D2FBF141740E60089DA9F /* PSWebTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FA8141740E60089DA9F /* PSWebTableViewCell.m */; };
+		2E0D2FC0141740E60089DA9F /* UIImage+HockeyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FAA141740E60089DA9F /* UIImage+HockeyAdditions.m */; };
+		2E0D2FC1141740E60089DA9F /* Hockey.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2FAB141740E60089DA9F /* Hockey.bundle */; };
+		2E0D2FC2141740E60089DA9F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FAE141740E60089DA9F /* JSONKit.m */; };
+		2E0D2FC3141740E60089DA9F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2FAF141740E60089DA9F /* README.md */; };
+		2E0D2FC4141740E60089DA9F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2FB0141740E60089DA9F /* LICENSE.txt */; };
+		2E0D2FC5141740E60089DA9F /* BWQuincyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FB3141740E60089DA9F /* BWQuincyManager.m */; };
+		2E0D2FC6141740E60089DA9F /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0D2FB4141740E60089DA9F /* CrashReporter.framework */; };
+		2E0D2FC7141740E70089DA9F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2FB5141740E60089DA9F /* LICENSE.txt */; };
+		2E0D2FC8141740E70089DA9F /* Quincy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D2FB6141740E60089DA9F /* Quincy.bundle */; };
+		2E0D2FCB1417418A0089DA9F /* HockeyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D2FCA1417418A0089DA9F /* HockeyApp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E0D2F4514173FEC0089DA9F /* jqmHockeyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jqmHockeyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0D2F4914173FEC0089DA9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E0D2F4B14173FEC0089DA9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E0D2F4D14173FEC0089DA9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E0D2F4F14173FEC0089DA9F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2E0D2F5114173FEC0089DA9F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		2E0D2F5314173FEC0089DA9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2E0D2F5514173FEC0089DA9F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2E0D2F5714173FEC0089DA9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2E0D2F5914173FEC0089DA9F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2E0D2F5B14173FEC0089DA9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E0D2F5D14173FEC0089DA9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2E0D2F5F14173FEC0089DA9F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2E0D2F6114173FEC0089DA9F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2E0D2F6514173FEC0089DA9F /* jqmHockeyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jqmHockeyApp-Info.plist"; sourceTree = "<group>"; };
+		2E0D2F6714173FEC0089DA9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E0D2F6914173FEC0089DA9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E0D2F6B14173FED0089DA9F /* jqmHockeyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jqmHockeyApp-Prefix.pch"; sourceTree = "<group>"; };
+		2E0D2F6C14173FED0089DA9F /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		2E0D2F7114173FED0089DA9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E0D2F7514173FED0089DA9F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E0D2F7814173FED0089DA9F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		2E0D2F7A14173FED0089DA9F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		2E0D2F7C14173FED0089DA9F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		2E0D2F7F14173FED0089DA9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		2E0D2F8114173FED0089DA9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		2E0D2F8314173FED0089DA9F /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		2E0D2F8514173FED0089DA9F /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		2E0D2F8814173FEE0089DA9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		2E0D2F8914173FEE0089DA9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		2E0D2F8C14173FEE0089DA9F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		2E0D2F92141740490089DA9F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		2E0D2F96141740E60089DA9F /* BWApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWApp.h; sourceTree = "<group>"; };
+		2E0D2F97141740E60089DA9F /* BWApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWApp.m; sourceTree = "<group>"; };
+		2E0D2F98141740E60089DA9F /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
+		2E0D2F99141740E60089DA9F /* BWGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGlobal.m; sourceTree = "<group>"; };
+		2E0D2F9A141740E60089DA9F /* BWHockeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHockeyManager.h; sourceTree = "<group>"; };
+		2E0D2F9B141740E60089DA9F /* BWHockeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHockeyManager.m; sourceTree = "<group>"; };
+		2E0D2F9C141740E60089DA9F /* BWHockeySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHockeySettingsViewController.h; sourceTree = "<group>"; };
+		2E0D2F9D141740E60089DA9F /* BWHockeySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHockeySettingsViewController.m; sourceTree = "<group>"; };
+		2E0D2F9E141740E60089DA9F /* BWHockeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHockeyViewController.h; sourceTree = "<group>"; };
+		2E0D2F9F141740E60089DA9F /* BWHockeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHockeyViewController.m; sourceTree = "<group>"; };
+		2E0D2FA1141740E60089DA9F /* NSString+HockeyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HockeyAdditions.h"; sourceTree = "<group>"; };
+		2E0D2FA2141740E60089DA9F /* NSString+HockeyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HockeyAdditions.m"; sourceTree = "<group>"; };
+		2E0D2FA3141740E60089DA9F /* PSAppStoreHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAppStoreHeader.h; sourceTree = "<group>"; };
+		2E0D2FA4141740E60089DA9F /* PSAppStoreHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAppStoreHeader.m; sourceTree = "<group>"; };
+		2E0D2FA5141740E60089DA9F /* PSStoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStoreButton.h; sourceTree = "<group>"; };
+		2E0D2FA6141740E60089DA9F /* PSStoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStoreButton.m; sourceTree = "<group>"; };
+		2E0D2FA7141740E60089DA9F /* PSWebTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebTableViewCell.h; sourceTree = "<group>"; };
+		2E0D2FA8141740E60089DA9F /* PSWebTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebTableViewCell.m; sourceTree = "<group>"; };
+		2E0D2FA9141740E60089DA9F /* UIImage+HockeyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HockeyAdditions.h"; sourceTree = "<group>"; };
+		2E0D2FAA141740E60089DA9F /* UIImage+HockeyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HockeyAdditions.m"; sourceTree = "<group>"; };
+		2E0D2FAB141740E60089DA9F /* Hockey.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Hockey.bundle; sourceTree = "<group>"; };
+		2E0D2FAD141740E60089DA9F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2E0D2FAE141740E60089DA9F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2E0D2FAF141740E60089DA9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		2E0D2FB0141740E60089DA9F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2E0D2FB2141740E60089DA9F /* BWQuincyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWQuincyManager.h; sourceTree = "<group>"; };
+		2E0D2FB3141740E60089DA9F /* BWQuincyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWQuincyManager.m; sourceTree = "<group>"; };
+		2E0D2FB4141740E60089DA9F /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		2E0D2FB5141740E60089DA9F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2E0D2FB6141740E60089DA9F /* Quincy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Quincy.bundle; sourceTree = "<group>"; };
+		2E0D2FC91417418A0089DA9F /* HockeyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HockeyApp.h; sourceTree = "<group>"; };
+		2E0D2FCA1417418A0089DA9F /* HockeyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HockeyApp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0D2F3F14173FEC0089DA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0D2F4A14173FEC0089DA9F /* Foundation.framework in Frameworks */,
+				2E0D2F4C14173FEC0089DA9F /* UIKit.framework in Frameworks */,
+				2E0D2F4E14173FEC0089DA9F /* CoreGraphics.framework in Frameworks */,
+				2E0D2F5014173FEC0089DA9F /* AddressBook.framework in Frameworks */,
+				2E0D2F5214173FEC0089DA9F /* AddressBookUI.framework in Frameworks */,
+				2E0D2F5414173FEC0089DA9F /* AudioToolbox.framework in Frameworks */,
+				2E0D2F5614173FEC0089DA9F /* AVFoundation.framework in Frameworks */,
+				2E0D2F5814173FEC0089DA9F /* CoreLocation.framework in Frameworks */,
+				2E0D2F5A14173FEC0089DA9F /* MediaPlayer.framework in Frameworks */,
+				2E0D2F5C14173FEC0089DA9F /* QuartzCore.framework in Frameworks */,
+				2E0D2F5E14173FEC0089DA9F /* SystemConfiguration.framework in Frameworks */,
+				2E0D2F6014173FEC0089DA9F /* MobileCoreServices.framework in Frameworks */,
+				2E0D2F6214173FEC0089DA9F /* CoreMedia.framework in Frameworks */,
+				2E0D2F6D14173FED0089DA9F /* PhoneGap.framework in Frameworks */,
+				2E0D2FC6141740E60089DA9F /* CrashReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0D2F4214173FEC0089DA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0D2F3714173FEB0089DA9F = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F92141740490089DA9F /* www */,
+				2E0D2F6314173FEC0089DA9F /* jqmHockeyApp */,
+				2E0D2F94141740E60089DA9F /* HockeyAppKit */,
+				2E0D2F4814173FEC0089DA9F /* Frameworks */,
+				2E0D2F4614173FEC0089DA9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E0D2F4614173FEC0089DA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F4514173FEC0089DA9F /* jqmHockeyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E0D2F4814173FEC0089DA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F4914173FEC0089DA9F /* Foundation.framework */,
+				2E0D2F4B14173FEC0089DA9F /* UIKit.framework */,
+				2E0D2F4D14173FEC0089DA9F /* CoreGraphics.framework */,
+				2E0D2F4F14173FEC0089DA9F /* AddressBook.framework */,
+				2E0D2F5114173FEC0089DA9F /* AddressBookUI.framework */,
+				2E0D2F5314173FEC0089DA9F /* AudioToolbox.framework */,
+				2E0D2F5514173FEC0089DA9F /* AVFoundation.framework */,
+				2E0D2F5714173FEC0089DA9F /* CoreLocation.framework */,
+				2E0D2F5914173FEC0089DA9F /* MediaPlayer.framework */,
+				2E0D2F5B14173FEC0089DA9F /* QuartzCore.framework */,
+				2E0D2F5D14173FEC0089DA9F /* SystemConfiguration.framework */,
+				2E0D2F5F14173FEC0089DA9F /* MobileCoreServices.framework */,
+				2E0D2F6114173FEC0089DA9F /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E0D2F6314173FEC0089DA9F /* jqmHockeyApp */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F6C14173FED0089DA9F /* PhoneGap.framework */,
+				2E0D2F6E14173FED0089DA9F /* Resources */,
+				2E0D2F8714173FEE0089DA9F /* Classes */,
+				2E0D2F8B14173FEE0089DA9F /* Plugins */,
+				2E0D2F6414173FEC0089DA9F /* Supporting Files */,
+			);
+			path = jqmHockeyApp;
+			sourceTree = "<group>";
+		};
+		2E0D2F6414173FEC0089DA9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F6514173FEC0089DA9F /* jqmHockeyApp-Info.plist */,
+				2E0D2F6614173FEC0089DA9F /* InfoPlist.strings */,
+				2E0D2F6914173FEC0089DA9F /* main.m */,
+				2E0D2F6B14173FED0089DA9F /* jqmHockeyApp-Prefix.pch */,
+				2E0D2F8514173FED0089DA9F /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E0D2F6E14173FED0089DA9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F8314173FED0089DA9F /* Capture.bundle */,
+				2E0D2F6F14173FED0089DA9F /* en.lproj */,
+				2E0D2F7314173FED0089DA9F /* es.lproj */,
+				2E0D2F7714173FED0089DA9F /* icons */,
+				2E0D2F7E14173FED0089DA9F /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E0D2F6F14173FED0089DA9F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F7014173FED0089DA9F /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		2E0D2F7314173FED0089DA9F /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F7414173FED0089DA9F /* Localizable.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		2E0D2F7714173FED0089DA9F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F7814173FED0089DA9F /* icon.png */,
+				2E0D2F7A14173FED0089DA9F /* icon@2x.png */,
+				2E0D2F7C14173FED0089DA9F /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		2E0D2F7E14173FED0089DA9F /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F7F14173FED0089DA9F /* Default.png */,
+				2E0D2F8114173FED0089DA9F /* Default@2x.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		2E0D2F8714173FEE0089DA9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F8814173FEE0089DA9F /* AppDelegate.h */,
+				2E0D2F8914173FEE0089DA9F /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2E0D2F8B14173FEE0089DA9F /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2FC91417418A0089DA9F /* HockeyApp.h */,
+				2E0D2FCA1417418A0089DA9F /* HockeyApp.m */,
+				2E0D2F8C14173FEE0089DA9F /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		2E0D2F94141740E60089DA9F /* HockeyAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F95141740E60089DA9F /* HockeyKit */,
+				2E0D2FB1141740E60089DA9F /* QuincyKit */,
+			);
+			name = HockeyAppKit;
+			path = jqmHockeyApp/HockeyAppKit;
+			sourceTree = "<group>";
+		};
+		2E0D2F95141740E60089DA9F /* HockeyKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2F96141740E60089DA9F /* BWApp.h */,
+				2E0D2F97141740E60089DA9F /* BWApp.m */,
+				2E0D2F98141740E60089DA9F /* BWGlobal.h */,
+				2E0D2F99141740E60089DA9F /* BWGlobal.m */,
+				2E0D2F9A141740E60089DA9F /* BWHockeyManager.h */,
+				2E0D2F9B141740E60089DA9F /* BWHockeyManager.m */,
+				2E0D2F9C141740E60089DA9F /* BWHockeySettingsViewController.h */,
+				2E0D2F9D141740E60089DA9F /* BWHockeySettingsViewController.m */,
+				2E0D2F9E141740E60089DA9F /* BWHockeyViewController.h */,
+				2E0D2F9F141740E60089DA9F /* BWHockeyViewController.m */,
+				2E0D2FA0141740E60089DA9F /* Helper */,
+				2E0D2FAB141740E60089DA9F /* Hockey.bundle */,
+				2E0D2FAC141740E60089DA9F /* JSON */,
+				2E0D2FB0141740E60089DA9F /* LICENSE.txt */,
+			);
+			path = HockeyKit;
+			sourceTree = "<group>";
+		};
+		2E0D2FA0141740E60089DA9F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2FA1141740E60089DA9F /* NSString+HockeyAdditions.h */,
+				2E0D2FA2141740E60089DA9F /* NSString+HockeyAdditions.m */,
+				2E0D2FA3141740E60089DA9F /* PSAppStoreHeader.h */,
+				2E0D2FA4141740E60089DA9F /* PSAppStoreHeader.m */,
+				2E0D2FA5141740E60089DA9F /* PSStoreButton.h */,
+				2E0D2FA6141740E60089DA9F /* PSStoreButton.m */,
+				2E0D2FA7141740E60089DA9F /* PSWebTableViewCell.h */,
+				2E0D2FA8141740E60089DA9F /* PSWebTableViewCell.m */,
+				2E0D2FA9141740E60089DA9F /* UIImage+HockeyAdditions.h */,
+				2E0D2FAA141740E60089DA9F /* UIImage+HockeyAdditions.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2E0D2FAC141740E60089DA9F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2FAD141740E60089DA9F /* JSONKit.h */,
+				2E0D2FAE141740E60089DA9F /* JSONKit.m */,
+				2E0D2FAF141740E60089DA9F /* README.md */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		2E0D2FB1141740E60089DA9F /* QuincyKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D2FB2141740E60089DA9F /* BWQuincyManager.h */,
+				2E0D2FB3141740E60089DA9F /* BWQuincyManager.m */,
+				2E0D2FB4141740E60089DA9F /* CrashReporter.framework */,
+				2E0D2FB5141740E60089DA9F /* LICENSE.txt */,
+				2E0D2FB6141740E60089DA9F /* Quincy.bundle */,
+			);
+			path = QuincyKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E0D2F4414173FEC0089DA9F /* jqmHockeyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0D2F8F14173FEE0089DA9F /* Build configuration list for PBXNativeTarget "jqmHockeyApp" */;
+			buildPhases = (
+				2E0D2F3E14173FEC0089DA9F /* Sources */,
+				2E0D2F3F14173FEC0089DA9F /* Frameworks */,
+				2E0D2F4014173FEC0089DA9F /* Resources */,
+				2E0D2F4114173FEC0089DA9F /* Sources */,
+				2E0D2F4214173FEC0089DA9F /* Frameworks */,
+				2E0D2F4314173FEC0089DA9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jqmHockeyApp;
+			productName = jqmHockeyApp;
+			productReference = 2E0D2F4514173FEC0089DA9F /* jqmHockeyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E0D2F3914173FEB0089DA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2E0D2F3C14173FEB0089DA9F /* Build configuration list for PBXProject "jqmHockeyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 2E0D2F3714173FEB0089DA9F;
+			productRefGroup = 2E0D2F4614173FEC0089DA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E0D2F4414173FEC0089DA9F /* jqmHockeyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E0D2F4014173FEC0089DA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0D2F6814173FEC0089DA9F /* InfoPlist.strings in Resources */,
+				2E0D2F7214173FED0089DA9F /* Localizable.strings in Resources */,
+				2E0D2F7614173FED0089DA9F /* Localizable.strings in Resources */,
+				2E0D2F7914173FED0089DA9F /* icon.png in Resources */,
+				2E0D2F7B14173FED0089DA9F /* icon@2x.png in Resources */,
+				2E0D2F7D14173FED0089DA9F /* icon-72.png in Resources */,
+				2E0D2F8014173FED0089DA9F /* Default.png in Resources */,
+				2E0D2F8214173FED0089DA9F /* Default@2x.png in Resources */,
+				2E0D2F8414173FED0089DA9F /* Capture.bundle in Resources */,
+				2E0D2F8614173FEE0089DA9F /* PhoneGap.plist in Resources */,
+				2E0D2F93141740490089DA9F /* www in Resources */,
+				2E0D2FC1141740E60089DA9F /* Hockey.bundle in Resources */,
+				2E0D2FC3141740E60089DA9F /* README.md in Resources */,
+				2E0D2FC4141740E60089DA9F /* LICENSE.txt in Resources */,
+				2E0D2FC7141740E70089DA9F /* LICENSE.txt in Resources */,
+				2E0D2FC8141740E70089DA9F /* Quincy.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E0D2F4314173FEC0089DA9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, in Xcode 4.\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0D2F3E14173FEC0089DA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0D2F6A14173FEC0089DA9F /* main.m in Sources */,
+				2E0D2F8A14173FEE0089DA9F /* AppDelegate.m in Sources */,
+				2E0D2FB7141740E60089DA9F /* BWApp.m in Sources */,
+				2E0D2FB8141740E60089DA9F /* BWGlobal.m in Sources */,
+				2E0D2FB9141740E60089DA9F /* BWHockeyManager.m in Sources */,
+				2E0D2FBA141740E60089DA9F /* BWHockeySettingsViewController.m in Sources */,
+				2E0D2FBB141740E60089DA9F /* BWHockeyViewController.m in Sources */,
+				2E0D2FBC141740E60089DA9F /* NSString+HockeyAdditions.m in Sources */,
+				2E0D2FBD141740E60089DA9F /* PSAppStoreHeader.m in Sources */,
+				2E0D2FBE141740E60089DA9F /* PSStoreButton.m in Sources */,
+				2E0D2FBF141740E60089DA9F /* PSWebTableViewCell.m in Sources */,
+				2E0D2FC0141740E60089DA9F /* UIImage+HockeyAdditions.m in Sources */,
+				2E0D2FC2141740E60089DA9F /* JSONKit.m in Sources */,
+				2E0D2FC5141740E60089DA9F /* BWQuincyManager.m in Sources */,
+				2E0D2FCB1417418A0089DA9F /* HockeyApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0D2F4114173FEC0089DA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E0D2F6614173FEC0089DA9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0D2F6714173FEC0089DA9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E0D2F7014173FED0089DA9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0D2F7114173FED0089DA9F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2E0D2F7414173FED0089DA9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0D2F7514173FED0089DA9F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E0D2F8D14173FEE0089DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E0D2F8E14173FEE0089DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E0D2F9014173FEE0089DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/PhoneGap/Frameworks,
+					"\"$(SRCROOT)/jqmHockeyApp/HockeyAppKit/QuincyKit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jqmHockeyApp/jqmHockeyApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "jqmHockeyApp/jqmHockeyApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E0D2F9114173FEE0089DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/PhoneGap/Frameworks,
+					"\"$(SRCROOT)/jqmHockeyApp/HockeyAppKit/QuincyKit\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jqmHockeyApp/jqmHockeyApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "jqmHockeyApp/jqmHockeyApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E0D2F3C14173FEB0089DA9F /* Build configuration list for PBXProject "jqmHockeyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0D2F8D14173FEE0089DA9F /* Debug */,
+				2E0D2F8E14173FEE0089DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0D2F8F14173FEE0089DA9F /* Build configuration list for PBXNativeTarget "jqmHockeyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0D2F9014173FEE0089DA9F /* Debug */,
+				2E0D2F9114173FEE0089DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E0D2F3914173FEB0089DA9F /* Project object */;
+}
